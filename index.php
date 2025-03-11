@@ -189,144 +189,9 @@ EXPECTED
     }
   </style>
   
-  <section class="target-market py-5">
-    <div class="container">
-      <h1 class="mb-5 text-center">Our Target Market</h1>
-  
-      <!-- Carousel Wrapper -->
-      <div id="targetMarketCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-  
-          <!-- Slide 1 (Active) -->
-          <div class="carousel-item active">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <!-- Card 1 -->
-              <div class="col">
-                <div class="card shadow h-100">
-                  <div class="card-body">
-                    <div class="d-flex align-items-start">
-                      <i class="fa fa-globe text-primary fa-3x flex-shrink-0 me-3"></i>
-                      <div>
-                        <h5>Energy and Mining</h5>
-                        <p class="mb-0">
-                          Sabmeith Freight Limited provides logistics support for the energy and mining sectors, facilitating the transportation of raw materials, equipment, and supplies to remote exploration sites and production facilities. With our extensive network and expertise in handling heavy and oversized cargo, we help energy and mining companies optimize supply chain efficiency and minimize downtime.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 2 -->
-              <div class="col">
-                <div class="card shadow h-100">
-                  <div class="card-body">
-                    <div class="d-flex align-items-start">
-                      <i class="fa fa-home text-primary fa-3x flex-shrink-0 me-3"></i>
-                      <div>
-                        <h5>Construction</h5>
-                        <p class="mb-0">
-                          Sabmeith Freight Limited supports construction companies with logistics services for the transportation of construction materials, equipment, and machinery. Our efficient transportation solutions and project management expertise help construction businesses streamline operations, reduce costs, and meet project deadlines effectively.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 3 -->
-              <div class="col">
-                <div class="card shadow h-100">
-                  <div class="card-body">
-                    <div class="d-flex align-items-start">
-                      <i class="fa fa-industry text-primary fa-3x flex-shrink-0 me-3"></i>
-                      <div>
-                        <h5>Manufacturing</h5>
-                        <p class="mb-0">
-                          Sabmeith Freight Limited provides tailored logistics solutions for manufacturing businesses, facilitating the seamless movement of raw materials, components, and finished goods throughout the production process. With a focus on efficiency and reliability, we optimize supply chain operations to ensure timely delivery and minimize disruptions, enabling manufacturers to meet production deadlines and maintain competitive advantage in the market.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> <!-- row end -->
-          </div>
-          <!-- /Slide 1 -->
-  
-          <!-- Slide 2 -->
-          <div class="carousel-item">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <!-- Card 4 -->
-              <div class="col">
-                <div class="card shadow h-100">
-                  <div class="card-body">
-                    <div class="d-flex align-items-start">
-                      <i class="fa fa-globe text-primary fa-3x flex-shrink-0 me-3"></i>
-                      <div>
-                        <h5>Energy and Mining</h5>
-                        <p class="mb-0">
-                          Sabmeith Freight Limited provides logistics support for the energy and mining sectors, facilitating the transportation of raw materials, equipment, and supplies to remote exploration sites and production facilities. With our extensive network and expertise in handling heavy and oversized cargo, we help energy and mining companies optimize supply chain efficiency and minimize downtime.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 5 -->
-              <div class="col">
-                <div class="card shadow h-100">
-                  <div class="card-body">
-                    <div class="d-flex align-items-start">
-                      <i class="fa fa-home text-primary fa-3x flex-shrink-0 me-3"></i>
-                      <div>
-                        <h5>Construction</h5>
-                        <p class="mb-0">
-                          Sabmeith Freight Limited supports construction companies with logistics services for the transportation of construction materials, equipment, and machinery. Our efficient transportation solutions and project management expertise help construction businesses streamline operations, reduce costs, and meet project deadlines effectively.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 6 -->
-              <div class="col">
-                <div class="card shadow h-100">
-                  <div class="card-body">
-                    <div class="d-flex align-items-start">
-                      <i class="fa fa-industry text-primary fa-3x flex-shrink-0 me-3"></i>
-                      <div>
-                        <h5>Manufacturing</h5>
-                        <p class="mb-0">
-                          Sabmeith Freight Limited provides tailored logistics solutions for manufacturing businesses, facilitating the seamless movement of raw materials, components, and finished goods throughout the production process. With a focus on efficiency and reliability, we optimize supply chain operations to ensure timely delivery and minimize disruptions, enabling manufacturers to meet production deadlines and maintain competitive advantage in the market.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> <!-- row end -->
-          </div>
-          <!-- /Slide 2 -->
-  
-        </div><!-- carousel-inner -->
-  
-        <!-- Carousel Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#targetMarketCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#targetMarketCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div><!-- /#targetMarketCarousel -->
-  
-    </div><!-- /.container -->
-  </section>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
-
- <!-- end of slider -->
+<?php
+        include("includes/target.php");
+    ?>
 
  <!-- Add Font Awesome for chevron icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -335,54 +200,54 @@ EXPECTED
   <div class="container">
     <h2 class="text-center mb-4">Our Clients</h2>
     <div id="clientsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-    <div class="carousel-inner">
+      <div class="carousel-inner">
 
-<!-- Slide 1 (Active) -->
-<div class="carousel-item active">
-  <div class="row g-4 justify-content-center">
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/9.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/2.png" alt="Impala" class="img-fluid" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/3.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
-    </div>
-  </div>
-</div>
+        <!-- Slide 1 (Active) -->
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/9.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/2.png" alt="Impala" class="img-fluid" style="max-height:100px;">
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/3.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
+            </div>
+          </div>
+        </div>
 
-<!-- Slide 2 -->
-<div class="carousel-item">
-<div class="row g-4 justify-content-center">
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/4.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/5.png" alt="Impala" class="img-fluid" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/6.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
-    </div>
-  </div>
-</div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/4.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/5.png" alt="Impala" class="img-fluid" style="max-height:100px;">
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/6.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
+            </div>
+          </div>
+        </div>
 
-<!-- Slide 3 -->
-<div class="carousel-item">
-<div class="row g-4 justify-content-center">
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/7.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/8.png" alt="Impala" class="img-fluid" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-4 d-flex justify-content-center">
-      <img src="img/clients/1.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
-    </div>
-  </div>
-</div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/7.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/8.png" alt="Impala" class="img-fluid" style="max-height:100px;">
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/1.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
+            </div>
+          </div>
+        </div>
 
-</div>
+      </div>
       
       <!-- Custom Carousel Controls -->
       <button class="carousel-control-prev" type="button" data-bs-target="#clientsCarousel" data-bs-slide="prev">
