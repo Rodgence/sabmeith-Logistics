@@ -328,73 +328,117 @@ EXPECTED
 
  <!-- end of slider -->
 
-    <!-- Our Clients -->
-    <section class="clients py-5">
+ <!-- Add Font Awesome for chevron icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<section class="clients py-5">
   <div class="container">
     <h2 class="text-center mb-4">Our Clients</h2>
     <div id="clientsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-      <div class="carousel-inner">
+    <div class="carousel-inner">
 
-        <!-- Slide 1 (Active) -->
-        <div class="carousel-item active">
-          <div class="row g-4 justify-content-center">
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/9.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/2.png" alt="Impala" class="img-fluid" style="max-height:100px;">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/3.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
-            </div>
-          </div>
-        </div>
+<!-- Slide 1 (Active) -->
+<div class="carousel-item active">
+  <div class="row g-4 justify-content-center">
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/9.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
+    </div>
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/2.png" alt="Impala" class="img-fluid" style="max-height:100px;">
+    </div>
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/3.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
+    </div>
+  </div>
+</div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-        <div class="row g-4 justify-content-center">
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/4.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/5.png" alt="Impala" class="img-fluid" style="max-height:100px;">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/6.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
-            </div>
-          </div>
-        </div>
+<!-- Slide 2 -->
+<div class="carousel-item">
+<div class="row g-4 justify-content-center">
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/4.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
+    </div>
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/5.png" alt="Impala" class="img-fluid" style="max-height:100px;">
+    </div>
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/6.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
+    </div>
+  </div>
+</div>
 
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-        <div class="row g-4 justify-content-center">
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/7.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/8.png" alt="Impala" class="img-fluid" style="max-height:100px;">
-            </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center">
-              <img src="img/clients/1.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
-            </div>
-          </div>
-        </div>
+<!-- Slide 3 -->
+<div class="carousel-item">
+<div class="row g-4 justify-content-center">
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/7.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
+    </div>
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/8.png" alt="Impala" class="img-fluid" style="max-height:100px;">
+    </div>
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <img src="img/clients/1.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
+    </div>
+  </div>
+</div>
 
-      </div>
-      <!-- Carousel Controls -->
+</div>
+      
+      <!-- Custom Carousel Controls -->
       <button class="carousel-control-prev" type="button" data-bs-target="#clientsCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <i class="fas fa-chevron-left fa-2x"></i>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#clientsCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <i class="fas fa-chevron-right fa-2x"></i>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </div>
 </section>
 
-    <!-- End of clients -->
+<style>
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: rgba(0,0,0,0.2);
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: -50px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    left: -30px;
+  }
+  .carousel-control-next {
+    right: -30px;
+  }
+}
+</style>
+
+  <!-- End of clients -->
 
    <!-- Why us -->
 <style>
