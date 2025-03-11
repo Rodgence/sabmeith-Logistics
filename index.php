@@ -305,138 +305,142 @@ EXPECTED
 
   <!-- End of clients -->
 
-   <!-- Why us -->
+ <!-- Why Choose Us Section -->
+<section class="why-choose-us py-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title"><span class="text-dark">WHY</span> <span class="text-warning">CHOOSE US?</span></h2>
+                <p class="text-muted">Here are the compelling reasons why clients work with us</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Technology Integration -->
+            <div class="col-md-4 mb-4 text-center">
+                <div class="icon-container mb-3">
+                    <img src="https://source.unsplash.com/random/80x80/?tech,gear" alt="Technology Icon" class="img-fluid icon">
+                </div>
+                <h4 class="feature-title">Technology Integration</h4>
+                <p class="feature-text">Leveraging cutting-edge technology, including advanced tracking systems and digital platforms, we optimize supply chain performance and provide real-time visibility into your shipments.</p>
+            </div>
+
+            <!-- Reliability and Efficiency -->
+            <div class="col-md-4 mb-4 text-center">
+                <div class="icon-container mb-3">
+                    <img src="https://source.unsplash.com/random/80x80/?reliability,clock" alt="Reliability Icon" class="img-fluid icon">
+                </div>
+                <h4 class="feature-title">Reliability and Efficiency</h4>
+                <p class="feature-text">We know that time is money, which is why we prioritize reliability and efficiency in all our operations. With our commitment to on-time delivery and streamlined processes.</p>
+            </div>
+
+            <!-- Competitive Pricing -->
+            <div class="col-md-4 mb-4 text-center">
+                <div class="icon-container mb-3">
+                    <img src="https://source.unsplash.com/random/80x80/?money,price" alt="Pricing Icon" class="img-fluid icon">
+                </div>
+                <h4 class="feature-title">Competitive Pricing</h4>
+                <p class="feature-text">At Sabmeith Freight Limited, we offer transparent pricing structures, striving to provide the best value without compromising on service.</p>
+            </div>
+
+            <!-- Expertise and Experience -->
+            <div class="col-md-4 mb-4 text-center">
+                <div class="icon-container mb-3">
+                    <img src="https://source.unsplash.com/random/80x80/?expert,people" alt="Expertise Icon" class="img-fluid icon">
+                </div>
+                <h4 class="feature-title">Expertise and Experience</h4>
+                <p class="feature-text">With years of industry experience, Sabmeith Freight Limited brings unparalleled expertise to logistics and transport.</p>
+            </div>
+
+            <!-- Commitment to Excellence -->
+            <div class="col-md-4 mb-4 text-center">
+                <div class="icon-container mb-3">
+                    <img src="https://source.unsplash.com/random/80x80/?excellence,award" alt="Excellence Icon" class="img-fluid icon">
+                </div>
+                <h4 class="feature-title">Commitment to Excellence</h4>
+                <p class="feature-text">We're dedicated to upholding the highest standards of excellence in everything we do. Through continuous improvement and rigorous quality control.</p>
+            </div>
+
+            <!-- International Certification -->
+            <div class="col-md-4 mb-4 text-center">
+                <div class="icon-container mb-3">
+                    <img src="https://source.unsplash.com/random/80x80/?global,certificate" alt="Certification Icon" class="img-fluid icon">
+                </div>
+                <h4 class="feature-title">International Certification</h4>
+                <p class="feature-text">We are internationally certified, ensuring our services meet global standards and compliance requirements. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <style>
-  * section */
-
-
-/* Container spacing and text alignment */
 .why-choose-us {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.why-choose-us h2 {
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-.why-choose-us p.lead {
-  margin-bottom: 2rem;
-  color: #444;
+    background-color: #f8f9fa;
 }
 
-/* Individual "Why Choose Us" items */
-.why-choose-us .choose-item {
-  border: 2px solid #800020;       /* Outer border color */
-  border-left: 8px solid #800020;  /* Thicker left border */
-  border-radius: 4px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: #fff;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.why-choose-us .choose-item:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
-/* Icon styling */
-.why-choose-us .choose-item i {
-  font-size: 1.8rem;
-  color: #800020;
-  margin-right: 1rem;
+.text-warning {
+    color: #FFC107 !important;
 }
 
-/* Headings within each item */
-.why-choose-us .choose-item h5 {
-  margin-bottom: 0.5rem;
+.icon-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.icon {
+    max-width: 70px;
+    height: auto;
+}
+
+.feature-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.feature-text {
+    color: #6c757d;
+}
+
+/* Alternative version with icon borders */
+.icon-bordered .icon-container {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFC107;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 auto 20px;
+}
+
+/* Dark theme option similar to second image */
+.dark-theme {
+    background-color: #3F1E26;
+    color: white;
+}
+
+.dark-theme .feature-text {
+    color: #e2e2e2;
+}
+
+.dark-theme .text-muted {
+    color: #d0d0d0 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
 }
 </style>
-  
-  <section class="why-choose-us">
-    <div class="container">
-      <h2 class="text-center">WHY CHOOSE US?</h2>
-      <p class="lead text-center">
-        Here are five compelling reasons why you should work with us:
-      </p>
-      
-      <div class="row">
-        <!-- Left Column (3 items) -->
-        <div class="col-md-6">
-          <!-- Item 1 -->
-          <div class="choose-item d-flex align-items-start">
-            <i class="fas fa-laptop-code"></i>
-            <div>
-              <h5>Technology Integration</h5>
-              <p>
-                Leveraging cutting-edge technology, including advanced tracking systems 
-                and digital platforms, we optimize supply chain performance and provide 
-                real-time visibility into your shipments. This ensures greater efficiency, 
-                transparency, and control over your logistics operations.
-              </p>
-            </div>
-          </div>
-          <!-- Item 2 -->
-          <div class="choose-item d-flex align-items-start">
-            <i class="fas fa-clock"></i>
-            <div>
-              <h5>Reliability and Efficiency</h5>
-              <p>
-                We know that time is money, which is why we prioritize reliability and 
-                efficiency in all our operations. With our commitment to on-time delivery 
-                and streamlined processes, you can trust us to get your shipments where 
-                they need to be, when they need to be there.
-              </p>
-            </div>
-          </div>
-          <!-- Item 3 -->
-          <div class="choose-item d-flex align-items-start">
-            <i class="fas fa-hand-holding-usd"></i>
-            <div>
-              <h5>Competitive Pricing</h5>
-              <p>
-                At Sabmeith Freight Limited, we offer transparent pricing structures, 
-                striving to provide the best value without compromising quality or service. 
-                Our commitment to competitive pricing ensures cost-effective solutions 
-                for our clients' logistics needs.
-              </p>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Right Column (2 items) -->
-        <div class="col-md-6">
-          <!-- Item 4 -->
-          <div class="choose-item d-flex align-items-start">
-            <i class="fas fa-user-tie"></i>
-            <div>
-              <h5>Expertise and Experience</h5>
-              <p>
-                With years of industry experience, Sabmeith Freight Limited brings 
-                unparalleled expertise to logistics and transport. Our seasoned team 
-                ensures efficient handling of diverse challenges, guaranteeing your 
-                shipments are in capable hands.
-              </p>
-            </div>
-          </div>
-          <!-- Item 5 -->
-          <div class="choose-item d-flex align-items-start">
-            <i class="fas fa-award"></i>
-            <div>
-              <h5>Commitment to Excellence</h5>
-              <p>
-                We're dedicated to upholding the highest standards of excellence in 
-                everything we do. Through continuous improvement, training, and 
-                quality control, we ensure that we deliver superior outcomes for 
-                our clients, every time.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-   <!-- End why us -->
 
     <!-- Quote Start -->
     <div class="container-xxl py-5">

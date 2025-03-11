@@ -19,29 +19,25 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service1.png" alt="">
+                            <img class="img-fluid" src="img/images/5.png" alt="">
                         </div>
                         <h4 class="mb-3">Logistics</h4>
                         <p>Sabmeith Freight Limited offers comprehensive
                             transport and logistics services tailored to meet the
                             diverse needs of businesses across various industries.
-                            With a commitment to excellence and reliability, we
-                            ensure seamless transportation and efficient
-                            management of goods throughout the supply chain.</p>
+                            </p>
                         <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service2 (3).png" alt="">
+                            <img class="img-fluid" src="img/images/7.jpg" alt="">
                         </div>
                         <h4 class="mb-3">Clearing and Forwading</h4>
                         <p>Sabmeith Freight Limited specializes in comprehensive clearing and forwarding services,
                             offering expertise in navigating the complexities of international trade regulations and customs
-                            procedures. We facilitate
-                            smooth and timely clearance of shipments, ensuring compliance with all regulatory
-                            requirements.
+                            procedures. 
                             </p>
                         <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
@@ -49,13 +45,11 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service2 (2).png" alt="">
+                            <img class="img-fluid" src="img/images/5.jpg" alt="">
                         </div>
                         <h4 class="mb-3">Freight Logistics</h4>
                         <p>Sabmeith Freight Limited offers comprehensive freight logistics services tailored to meet the
-                            evolving needs of businesses in today's global marketplace. With a focus on efficiency, reliability,
-                            and innovation, we provide end-to-end solutions to optimize supply chain performance and drive
-                            business growth.</p>
+                            evolving needs of businesses in today's global marketplace. </p>
                         <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
