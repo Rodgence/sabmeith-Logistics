@@ -141,29 +141,9 @@ EXPECTED
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-sm-6">
-                            <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
-                                <i class="fa fa-users fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">489</h2>
-                                <p class="text-white mb-0">Happy Clients</p>
-                            </div>
-                            <div class="bg-success p-4 wow fadeIn" data-wow-delay="0.5s">
-                                <i class="fa fa-ship fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">1500</h2>
-                                <p class="text-white mb-0">Complete Shipments</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="bg-dark p-4 wow fadeIn" data-wow-delay="0.7s">
-                                <i class="fa fa-star fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">119</h2>
-                                <p class="text-white mb-0">Customer Reviews</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                    include("includes/information.php");
+                ?>
             </div>
         </div>
     </div>
@@ -446,17 +426,11 @@ EXPECTED
 
 <!-- mpa iframe -->
 
-<div class="container-fluid">
-  <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <h2 class="text-center mb-4">Visit Us</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.431389088109!2d39.28240801166918!3d-6.838771993130777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4bb2b07847bd%3A0xd06d185a4baffa36!2sSabmeith%20Freight%20Ltd!5e0!3m2!1sen!2stz!4v1741154417140!5m2!1sen!2stz" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <div class="col-md-1"></div>
-  </div>
-
-
 <?php
+
+    include("includes/location.php");
+
+
+
     include("includes/footer.php");
 ?>
