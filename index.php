@@ -193,8 +193,6 @@ EXPECTED
         include("includes/target.php");
     ?>
 
- <!-- Add Font Awesome for chevron icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <section class="clients py-5">
   <div class="container">
@@ -262,46 +260,7 @@ EXPECTED
   </div>
 </section>
 
-<style>
-.carousel-control-prev,
-.carousel-control-next {
-  width: 40px;
-  height: 40px;
-  background: rgba(0,0,0,0.1);
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 1;
-  transition: all 0.3s ease;
-}
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  background: rgba(0,0,0,0.2);
-}
-
-.carousel-control-prev {
-  left: -50px;
-}
-
-.carousel-control-next {
-  right: -50px;
-}
-
-.carousel-control-prev i,
-.carousel-control-next i {
-  color: #333;
-}
-
-@media (max-width: 768px) {
-  .carousel-control-prev {
-    left: -30px;
-  }
-  .carousel-control-next {
-    right: -30px;
-  }
-}
-</style>
 
   <!-- End of clients -->
 
@@ -373,74 +332,6 @@ EXPECTED
     </div>
 </section>
 
-<style>
-.why-choose-us {
-    background-color: #f8f9fa;
-}
-
-.section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-.text-warning {
-    color:rgb(59, 15, 26) !important;
-}
-
-.icon-container {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.icon {
-    max-width: 70px;
-    height: auto;
-}
-
-.feature-title {
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-.feature-text {
-    color: #6c757d;
-}
-
-/* Alternative version with icon borders */
-.icon-bordered .icon-container {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #FFC107;
-    border-radius: 50%;
-    padding: 20px;
-    margin: 0 auto 20px;
-}
-
-/* Dark theme option similar to second image */
-.dark-theme {
-    background-color: #3F1E26;
-    color: white;
-}
-
-.dark-theme .feature-text {
-    color: #e2e2e2;
-}
-
-.dark-theme .text-muted {
-    color: #d0d0d0 !important;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .section-title {
-        font-size: 2rem;
-    }
-}
-</style>
 
     <!-- Quote Start -->
     <div class="container-xxl py-5">

@@ -8,6 +8,7 @@
         
         .section-title {
             margin-bottom: 40px;
+
         }
         
         .section-title h2 {
@@ -16,6 +17,7 @@
             line-height: 1.2;
             color: white;
             position: relative;
+            text-align: center;
         }
         
         .section-title h2:after {
@@ -114,7 +116,7 @@
                 <!-- Energy and Mining -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="./img/images/mining.jpg"Energy and Mining" class="market-image">
+                        <img src="./img/images/mining.jpg" class="market-image">
                         <div class="market-title">Energy and Mining</div>
                         <div class="market-content">
                             <p>Sabmeith Freight Limited provides logistics
