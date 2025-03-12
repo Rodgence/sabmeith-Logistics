@@ -1,5 +1,5 @@
-  /* Card hover effect styles */
-  .feature-card {
+ /* Card hover effect styles */
+ .feature-card {
     transition: all 0.3s ease;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -13,12 +13,13 @@
 }
 
 .icon-container {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #333;
 }
 
 .feature-title {
@@ -37,8 +38,8 @@
     font-weight: 700;
 }
 
-.text-warning {
-    color: #FFC107 !important;
+.why {
+    color: #9c212d;
 }
 /* Our Clients start */
 

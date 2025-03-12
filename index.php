@@ -188,10 +188,12 @@ EXPECTED
       transform: scale(1.05);
     }
   </style>
-  
-<?php
+
+  <!-- Targeted Clients -->
+    <?php
         include("includes/target.php");
     ?>
+
 
 
 <section class="clients py-5">
@@ -264,12 +266,11 @@ EXPECTED
 
   <!-- End of clients -->
 
- <!-- Why Choose Us Section -->
-<section class="why-choose-us py-5">
+  <section class="why-choose-us py-5">
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="section-title"><span class="text-dark">WHY</span> <span class="text-warning">CHOOSE US?</span></h2>
+                <h2 class="section-title"><span class="text-dark">WHY</span> <span class="why">CHOOSE US?</span></h2>
                 <p class="text-muted">Here are the compelling reasons why clients work with us</p>
             </div>
         </div>
@@ -281,7 +282,14 @@ EXPECTED
                 <div class="card feature-card h-100">
                     <div class="card-body text-center">
                         <div class="icon-container mb-3">
-                            <img src="https://source.unsplash.com/random/80x80/?tech,gear" alt="Technology Icon" class="img-fluid icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 6V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v2"/>
+                                <path d="M6 10v8c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-8"/>
+                                <path d="M12 12v8"/>
+                                <path d="M12 2v4"/>
+                                <path d="M15 12H9"/>
+                                <path d="M3 10h18"/>
+                            </svg>
                         </div>
                         <h4 class="feature-title">Technology Integration</h4>
                         <p class="feature-text">Leveraging cutting-edge technology, including advanced tracking systems and digital platforms, we optimize supply chain performance and provide real-time visibility into your shipments.</p>
@@ -294,7 +302,10 @@ EXPECTED
                 <div class="card feature-card h-100">
                     <div class="card-body text-center">
                         <div class="icon-container mb-3">
-                            <img src="https://source.unsplash.com/random/80x80/?reliability,clock" alt="Reliability Icon" class="img-fluid icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
                         </div>
                         <h4 class="feature-title">Reliability and Efficiency</h4>
                         <p class="feature-text">We know that time is money, which is why we prioritize reliability and efficiency in all our operations. With our commitment to on-time delivery and streamlined processes.</p>
@@ -307,7 +318,11 @@ EXPECTED
                 <div class="card feature-card h-100">
                     <div class="card-body text-center">
                         <div class="icon-container mb-3">
-                            <img src="https://source.unsplash.com/random/80x80/?money,price" alt="Pricing Icon" class="img-fluid icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="16"/>
+                                <line x1="8" y1="12" x2="16" y2="12"/>
+                            </svg>
                         </div>
                         <h4 class="feature-title">Competitive Pricing</h4>
                         <p class="feature-text">At Sabmeith Freight Limited, we offer transparent pricing structures, striving to provide the best value without compromising on service.</p>
@@ -323,7 +338,10 @@ EXPECTED
                 <div class="card feature-card h-100">
                     <div class="card-body text-center">
                         <div class="icon-container mb-3">
-                            <img src="https://source.unsplash.com/random/80x80/?expert,people" alt="Expertise Icon" class="img-fluid icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
                         </div>
                         <h4 class="feature-title">Expertise and Experience</h4>
                         <p class="feature-text">With years of industry experience, Sabmeith Freight Limited brings unparalleled expertise to logistics and transport.</p>
@@ -336,7 +354,9 @@ EXPECTED
                 <div class="card feature-card h-100">
                     <div class="card-body text-center">
                         <div class="icon-container mb-3">
-                            <img src="https://source.unsplash.com/random/80x80/?excellence,award" alt="Excellence Icon" class="img-fluid icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 15l-2-5-6 4 4-6-5-2h6l2-5 2 5h6l-5 2 4 6-6-4z"/>
+                            </svg>
                         </div>
                         <h4 class="feature-title">Commitment to Excellence</h4>
                         <p class="feature-text">We're dedicated to upholding the highest standards of excellence in everything we do. Through continuous improvement and rigorous quality control.</p>
@@ -349,7 +369,11 @@ EXPECTED
                 <div class="card feature-card h-100">
                     <div class="card-body text-center">
                         <div class="icon-container mb-3">
-                            <img src="https://source.unsplash.com/random/80x80/?global,certificate" alt="Certification Icon" class="img-fluid icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
                         </div>
                         <h4 class="feature-title">International Certification</h4>
                         <p class="feature-text">We are internationally certified, ensuring our services meet global standards and compliance requirements.</p>
