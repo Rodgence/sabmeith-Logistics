@@ -114,7 +114,7 @@
                 <!-- Energy and Mining -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="./img/images/mining."Energy and Mining" class="market-image">
+                        <img src="./img/images/mining.jpg"Energy and Mining" class="market-image">
                         <div class="market-title">Energy and Mining</div>
                         <div class="market-content">
                             <p>Sabmeith Freight Limited provides logistics
@@ -130,7 +130,7 @@
                 <!-- Construction -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="https://source.unsplash.com/random/600x400/?construction,building" alt="Construction" class="market-image">
+                        <img src="./img/images/construction.jpg" alt="Construction" class="market-image">
                         <div class="market-title">Construction</div>
                         <div class="market-content">
                             <p>Sabmeith Freight Limited supports construction
@@ -144,7 +144,7 @@
                 <!-- Manufacturing -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="https://source.unsplash.com/random/600x400/?manufacturing,factory" alt="Manufacturing" class="market-image">
+                        <img src="./img/images/manufacturing.jpg" alt="Manufacturing" class="market-image">
                         <div class="market-title">Manufacturing</div>
                         <div class="market-content">
                             <p>Sabmeith Freight Limited provides tailored
@@ -159,7 +159,7 @@
                 <!-- Retail -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="https://source.unsplash.com/random/600x400/?retail,store" alt="Retail" class="market-image">
+                        <img src="./img/images/retail.jpg" alt="Retail" class="market-image">
                         <div class="market-title">Retail</div>
                         <div class="market-content">
                             <p>As a trusted logistics partner for retail
@@ -174,7 +174,7 @@
                 <!-- Automotive -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="https://source.unsplash.com/random/600x400/?automotive,cars" alt="Automotive" class="market-image">
+                        <img src="./img/images/auto.jpg" alt="Automotive" class="market-image">
                         <div class="market-title">Automotive</div>
                         <div class="market-content">
                             <p>Sabmeith Freight Limited offers specialized
@@ -188,7 +188,7 @@
                 <!-- E-commerce -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="https://source.unsplash.com/random/600x400/?ecommerce,delivery" alt="E-commerce" class="market-image">
+                        <img src="./img/images/ecommerce.png" alt="E-commerce" class="market-image">
                         <div class="market-title">E-commerce</div>
                         <div class="market-content">
                             <p>Sabmeith Freight Limited specializes in providing
