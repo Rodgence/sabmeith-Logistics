@@ -40,7 +40,7 @@
           </div>
           <!-- Right Column Image -->
           <div class="col-sm-6">
-            <img src="img/service2 (2).png" alt="About Sabmeith Freight" class="img-fluid">
+            <img src="img/images/sab/1.png" alt="About Sabmeith Freight" class="img-fluid">
           </div>
         </div>
       </div>

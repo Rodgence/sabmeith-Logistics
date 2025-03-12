@@ -58,7 +58,7 @@
       <!-- Left column (optional image) -->
       <div class="col-md-6">
         <img
-          src="https://via.placeholder.com/600x400"
+          src="img/images/sab/1.png"
           alt="Freight Logistics"
           class="img-fluid rounded mb-4 mb-md-0"
         />
@@ -101,10 +101,10 @@
 <!-- Call-to-Action Section Start -->
 <section
   class="cta-section text-center text-white py-5"
-  style="background: #007bff;"
+  style="background: #471b25;"
 >
   <div class="container">
-    <h2 class="mb-3">Ready to Streamline Your Freight Logistics?</h2>
+    <h2 class="mb-3 text-light">Ready to Streamline Your Freight Logistics?</h2>
     <p class="mb-4">
       Contact us today to learn how our innovative freight logistics solutions can
       optimize your supply chain and drive business growth.

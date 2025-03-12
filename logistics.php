@@ -36,7 +36,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-md-6">
         <img
-          src="img/service2.png"
+          src="img/images/sab/3.png"
           alt="Sabmeith Freight Trucks"
           class="img-fluid"
         />
@@ -63,7 +63,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-md-6 order-md-2">
         <img
-           src="img/service1.png"
+           src="img/images/sab/1.png"
           alt="Tracking and Monitoring"
           class="img-fluid"
         />
