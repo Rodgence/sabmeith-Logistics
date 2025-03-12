@@ -366,8 +366,8 @@ EXPECTED
 </section>
 
     <!-- Quote Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
+    <div class="container-xxl py-2">
+        <div class="container py-2">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <!-- <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6> -->
