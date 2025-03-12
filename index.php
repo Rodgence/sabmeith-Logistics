@@ -108,12 +108,12 @@
 
 
     <!-- Fact Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
+    <div class="container-xxl py-1">
+        <div class="container py-1">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <!-- <h6 class="text-secondary text-uppercase mb-3">Some Facts</h6> -->
-                    <h1 class="mb-5">WE DELIVER
+                    <h1 class="mb-3">WE DELIVER
 MORE THAN
 EXPECTED
 </h1>

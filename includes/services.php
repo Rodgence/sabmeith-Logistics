@@ -1,6 +1,6 @@
     <!-- Service Start -->
-    <div class="container-xxl py-2">
-        <div class="container py-2">
+    <div class="container-xxl py-1">
+        <div class="container py-1">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <!-- <h6 class="text-secondary text-uppercase">Our Services</h6> -->
                 <h1 class="mb-3">Explore Our Services</h1>
