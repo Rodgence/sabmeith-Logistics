@@ -1,68 +1,44 @@
-.why-choose-us {
-    background-color: #f8f9fa;
+  /* Card hover effect styles */
+  .feature-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
-.section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-.text-warning {
-    color:rgb(59, 15, 26) !important;
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .icon-container {
-    height: 80px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-}
-
-.icon {
-    max-width: 70px;
-    height: auto;
 }
 
 .feature-title {
+    color: #333;
+    margin-bottom: 15px;
     font-weight: 600;
-    margin-bottom: 1rem;
 }
 
 .feature-text {
-    color: #6c757d;
+    color: #666;
 }
 
-/* Alternative version with icon borders */
-.icon-bordered .icon-container {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #FFC107;
-    border-radius: 50%;
-    padding: 20px;
-    margin: 0 auto 20px;
+.section-title {
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
-/* Dark theme option similar to second image */
-.dark-theme {
-    background-color: #3F1E26;
-    color: white;
-}
-
-.dark-theme .feature-text {
-    color: #e2e2e2;
-}
-
-.dark-theme .text-muted {
-    color: #d0d0d0 !important;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .section-title {
-        font-size: 2rem;
-    }
+.text-warning {
+    color: #FFC107 !important;
 }
 /* Our Clients start */
 

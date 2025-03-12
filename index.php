@@ -274,64 +274,91 @@ EXPECTED
             </div>
         </div>
 
-        <div class="row">
+        <!-- First Row -->
+        <div class="row mb-4">
             <!-- Technology Integration -->
-            <div class="col-md-4 mb-4 text-center">
-                <div class="icon-container mb-3">
-                    <img src="https://source.unsplash.com/random/80x80/?tech,gear" alt="Technology Icon" class="img-fluid icon">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <div class="icon-container mb-3">
+                            <img src="https://source.unsplash.com/random/80x80/?tech,gear" alt="Technology Icon" class="img-fluid icon">
+                        </div>
+                        <h4 class="feature-title">Technology Integration</h4>
+                        <p class="feature-text">Leveraging cutting-edge technology, including advanced tracking systems and digital platforms, we optimize supply chain performance and provide real-time visibility into your shipments.</p>
+                    </div>
                 </div>
-                <h4 class="feature-title">Technology Integration</h4>
-                <p class="feature-text">Leveraging cutting-edge technology, including advanced tracking systems and digital platforms, we optimize supply chain performance and provide real-time visibility into your shipments.</p>
             </div>
 
             <!-- Reliability and Efficiency -->
-            <div class="col-md-4 mb-4 text-center">
-                <div class="icon-container mb-3">
-                    <img src="https://source.unsplash.com/random/80x80/?reliability,clock" alt="Reliability Icon" class="img-fluid icon">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <div class="icon-container mb-3">
+                            <img src="https://source.unsplash.com/random/80x80/?reliability,clock" alt="Reliability Icon" class="img-fluid icon">
+                        </div>
+                        <h4 class="feature-title">Reliability and Efficiency</h4>
+                        <p class="feature-text">We know that time is money, which is why we prioritize reliability and efficiency in all our operations. With our commitment to on-time delivery and streamlined processes.</p>
+                    </div>
                 </div>
-                <h4 class="feature-title">Reliability and Efficiency</h4>
-                <p class="feature-text">We know that time is money, which is why we prioritize reliability and efficiency in all our operations. With our commitment to on-time delivery and streamlined processes.</p>
             </div>
 
             <!-- Competitive Pricing -->
-            <div class="col-md-4 mb-4 text-center">
-                <div class="icon-container mb-3">
-                    <img src="https://source.unsplash.com/random/80x80/?money,price" alt="Pricing Icon" class="img-fluid icon">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <div class="icon-container mb-3">
+                            <img src="https://source.unsplash.com/random/80x80/?money,price" alt="Pricing Icon" class="img-fluid icon">
+                        </div>
+                        <h4 class="feature-title">Competitive Pricing</h4>
+                        <p class="feature-text">At Sabmeith Freight Limited, we offer transparent pricing structures, striving to provide the best value without compromising on service.</p>
+                    </div>
                 </div>
-                <h4 class="feature-title">Competitive Pricing</h4>
-                <p class="feature-text">At Sabmeith Freight Limited, we offer transparent pricing structures, striving to provide the best value without compromising on service.</p>
             </div>
+        </div>
 
+        <!-- Second Row -->
+        <div class="row">
             <!-- Expertise and Experience -->
-            <div class="col-md-4 mb-4 text-center">
-                <div class="icon-container mb-3">
-                    <img src="https://source.unsplash.com/random/80x80/?expert,people" alt="Expertise Icon" class="img-fluid icon">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <div class="icon-container mb-3">
+                            <img src="https://source.unsplash.com/random/80x80/?expert,people" alt="Expertise Icon" class="img-fluid icon">
+                        </div>
+                        <h4 class="feature-title">Expertise and Experience</h4>
+                        <p class="feature-text">With years of industry experience, Sabmeith Freight Limited brings unparalleled expertise to logistics and transport.</p>
+                    </div>
                 </div>
-                <h4 class="feature-title">Expertise and Experience</h4>
-                <p class="feature-text">With years of industry experience, Sabmeith Freight Limited brings unparalleled expertise to logistics and transport.</p>
             </div>
 
             <!-- Commitment to Excellence -->
-            <div class="col-md-4 mb-4 text-center">
-                <div class="icon-container mb-3">
-                    <img src="https://source.unsplash.com/random/80x80/?excellence,award" alt="Excellence Icon" class="img-fluid icon">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <div class="icon-container mb-3">
+                            <img src="https://source.unsplash.com/random/80x80/?excellence,award" alt="Excellence Icon" class="img-fluid icon">
+                        </div>
+                        <h4 class="feature-title">Commitment to Excellence</h4>
+                        <p class="feature-text">We're dedicated to upholding the highest standards of excellence in everything we do. Through continuous improvement and rigorous quality control.</p>
+                    </div>
                 </div>
-                <h4 class="feature-title">Commitment to Excellence</h4>
-                <p class="feature-text">We're dedicated to upholding the highest standards of excellence in everything we do. Through continuous improvement and rigorous quality control.</p>
             </div>
 
             <!-- International Certification -->
-            <div class="col-md-4 mb-4 text-center">
-                <div class="icon-container mb-3">
-                    <img src="https://source.unsplash.com/random/80x80/?global,certificate" alt="Certification Icon" class="img-fluid icon">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <div class="icon-container mb-3">
+                            <img src="https://source.unsplash.com/random/80x80/?global,certificate" alt="Certification Icon" class="img-fluid icon">
+                        </div>
+                        <h4 class="feature-title">International Certification</h4>
+                        <p class="feature-text">We are internationally certified, ensuring our services meet global standards and compliance requirements.</p>
+                    </div>
                 </div>
-                <h4 class="feature-title">International Certification</h4>
-                <p class="feature-text">We are internationally certified, ensuring our services meet global standards and compliance requirements. </p>
             </div>
         </div>
     </div>
 </section>
-
 
     <!-- Quote Start -->
     <div class="container-xxl py-5">
