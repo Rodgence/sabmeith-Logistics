@@ -60,7 +60,7 @@
         <div class="row mb-5 align-items-center">
           <div class="col-md-6">
             <img
-              src="img/service1.png"
+              src="img/images/7.jpg"
               alt="Mining Trucks"
               class="img-fluid mb-4 mb-md-0"
             />

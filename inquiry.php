@@ -24,7 +24,7 @@
 <!-- Page Header End -->
 
 <!-- Inquiry Content Start -->
-<section class="inquiry-content py-5">
+<section class="inquiry-content py-1">
   <div class="container">
     <!-- Introduction or Description -->
     <div class="row mb-5">
