@@ -4,7 +4,7 @@
             <div class="bg-primary p-3 rounded-4 text-center wow fadeIn" data-wow-delay="0.3s">
                 <i class="fa fa-users fa-2x text-white mb-2"></i>
                 <h3 class="text-white mb-1" data-toggle="counter-up">150</h3>
-                <p class="text-white mb-0 small">Employees Wapo</p>
+                <p class="text-white mb-0 small">Employees</p>
             </div>
             <div class="bg-success p-3 rounded-4 text-center wow fadeIn" data-wow-delay="0.5s">
                 <i class="fa fa-truck fa-2x text-white mb-2"></i>
