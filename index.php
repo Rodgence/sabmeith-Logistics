@@ -385,7 +385,7 @@ EXPECTED
 }
 
 .text-warning {
-    color: #FFC107 !important;
+    color:rgb(59, 15, 26) !important;
 }
 
 .icon-container {

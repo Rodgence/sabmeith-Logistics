@@ -52,6 +52,7 @@
             padding: 10px 15px;
             font-weight: 600;
             z-index: 2;
+            font-size: 20px;
         }
         
         .market-content {
@@ -66,7 +67,7 @@
             transform: translateY(100%);
             transition: transform 0.5s ease;
             overflow-y: auto;
-            font-size: 0.85rem;
+            font-size: 1rem;
             z-index: 1;
         }
         
@@ -113,10 +114,15 @@
                 <!-- Energy and Mining -->
                 <div class="col-lg-4 col-md-6">
                     <div class="market-card">
-                        <img src="./img/images/1.jpg" alt="Energy and Mining" class="market-image">
+                        <img src="./img/images/mining."Energy and Mining" class="market-image">
                         <div class="market-title">Energy and Mining</div>
                         <div class="market-content">
-                            <p>Subemah Freight Limited provides logistics support for the energy and mining sector, facilitating the transportation of raw materials, equipment and supplies to remote exploration and extraction sites. With our extensive transport network and expertise in handling heavy and sensitive cargo, we help energy and mining companies achieve supply chain efficiency and minimize downtime.</p>
+                            <p>Sabmeith Freight Limited provides logistics
+                                support for the energy and mining sectors,
+                                facilitating the transportation of raw materials,
+                                equipment, and supplies to remote exploration
+                                sites and production facilities
+                                .</p>
                         </div>
                     </div>
                 </div>
@@ -127,7 +133,10 @@
                         <img src="https://source.unsplash.com/random/600x400/?construction,building" alt="Construction" class="market-image">
                         <div class="market-title">Construction</div>
                         <div class="market-content">
-                            <p>Subemah Freight Limited supports construction companies with logistics services for the transportation of construction materials, equipment and machinery. Our dedicated team of logistics professionals use their expertise to help construction businesses streamline operations and complete their project deadlines effectively.</p>
+                            <p>Sabmeith Freight Limited supports construction
+                                companies with logistics services for the
+                                transportation of construction materials,
+                                equipment, and machinery. </p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +147,11 @@
                         <img src="https://source.unsplash.com/random/600x400/?manufacturing,factory" alt="Manufacturing" class="market-image">
                         <div class="market-title">Manufacturing</div>
                         <div class="market-content">
-                            <p>Subemah Freight Limited provides tailored logistics solutions for manufacturing businesses, facilitating the seamless movement of raw materials, parts, and finished products throughout the production process. With a focus on efficiency and reliability, we optimize supply chains to reduce costs, maintain quality, and minimize disruptions, enabling manufacturers to meet production deadlines and maintain competitiveness in the market.</p>
+                            <p>Sabmeith Freight Limited provides tailored
+                                logistics solutions for manufacturing businesses,
+                                facilitating the seamless movement of raw
+                                materials, components, and finished goods
+                                throughout the production process.</p>
                         </div>
                     </div>
                 </div>
@@ -149,7 +162,11 @@
                         <img src="https://source.unsplash.com/random/600x400/?retail,store" alt="Retail" class="market-image">
                         <div class="market-title">Retail</div>
                         <div class="market-content">
-                            <p>A trusted logistics partner for retail businesses, Subemah Freight Limited offers comprehensive services including warehouse management, inventory control, and last-mile delivery. Our solutions are designed to optimize retail supply chains, reduce stockouts, and enhance the accurate delivery of products to stores or directly to customers, improving overall customer satisfaction.</p>
+                            <p>As a trusted logistics partner for retail
+                                businesses, Sabmeith Freight Limited offers
+                                comprehensive services including inventory
+                                management, warehousing, and last-mile
+                                delivery.</p>
                         </div>
                     </div>
                 </div>
@@ -160,7 +177,10 @@
                         <img src="https://source.unsplash.com/random/600x400/?automotive,cars" alt="Automotive" class="market-image">
                         <div class="market-title">Automotive</div>
                         <div class="market-content">
-                            <p>Subemah Freight Limited offers specialized logistics services for the automotive industry, supporting the movement of vehicles, parts, and components. With expertise in handling oversized cargo and just-in-time delivery requirements, we help automotive manufacturers and suppliers can meet production schedules and deliver efficient supply chain operations.</p>
+                            <p>Sabmeith Freight Limited offers specialized
+                                    logistics services for the automotive industry,
+                                    including the transportation of vehicles, parts,
+                                    and components.</p>
                         </div>
                     </div>
                 </div>
@@ -171,7 +191,11 @@
                         <img src="https://source.unsplash.com/random/600x400/?ecommerce,delivery" alt="E-commerce" class="market-image">
                         <div class="market-title">E-commerce</div>
                         <div class="market-content">
-                            <p>Subemah Freight specializes in providing end-to-end logistics solutions for e-commerce businesses, from inventory management, order fulfillment and packaging to shipping and delivery services. Our customized digital tracking solutions, real-time updates, and API integrations enable businesses to scale their operations, reach new markets, and deliver a seamless delivery experience to customers worldwide.</p>
+                            <p>Sabmeith Freight Limited specializes in providing
+                                end-to-end logistics solutions for e-commerce
+                                companies, handling everything from order
+                                fulfillment and packaging to shipping and
+                                delivery.</p>
                         </div>
                     </div>
                 </div>
