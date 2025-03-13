@@ -227,6 +227,20 @@ EXPECTED
             </div>
           </div>
         </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/11.png" alt="Reload Logistics" class="img-fluid" style="max-height:100px;">
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/12.png" alt="Impala" class="img-fluid" style="max-height:100px;">
+            </div>
+            <!-- <div class="col-6 col-md-4 d-flex justify-content-center">
+              <img src="img/clients/1.png" alt="Poltyra" class="img-fluid" style="max-height:100px;">
+            </div> -->
+          </div>
+        </div>
 
       </div>
       
