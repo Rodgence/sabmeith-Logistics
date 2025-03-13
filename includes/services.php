@@ -26,7 +26,7 @@
                             transport and logistics services tailored to meet the
                             diverse needs of businesses across various industries.
                             </p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="./logistics"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -39,7 +39,7 @@
                             offering expertise in navigating the complexities of international trade regulations and customs
                             procedures. 
                             </p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="./"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -50,7 +50,7 @@
                         <h4 class="mb-3">Freight Logistics</h4>
                         <p>Sabmeith Freight Limited offers comprehensive freight logistics services tailored to meet the
                             evolving needs of businesses in today's global marketplace. </p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="./freght-logistics.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                
