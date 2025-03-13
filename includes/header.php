@@ -58,7 +58,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="logistics.php" class="dropdown-item">Logistics</a>
-                        <a href="clearing.php" class="dropdown-item">Clearing and Forwading</a>
+                        <a href="clearing-forwrd.php" class="dropdown-item">Clearing and Forwading</a>
                         <a href="freight-logistics.php" class="dropdown-item">Freight Logistics</a>
                        
                     </div>
