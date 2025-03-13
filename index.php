@@ -134,13 +134,13 @@ EXPECTED
                     <p>
                         
                     </p>
-                    <div class="d-flex align-items-center">
+                    <!-- <div class="d-flex align-items-center">
                         <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                         <div class="ps-4">
                             <h6>Call for any query!</h6>
                             <h3 class="text-primary m-0"><a href="https://wa.me/255775999000">+255 775 999 000</a></h3>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <?php
                     include("includes/information.php");
