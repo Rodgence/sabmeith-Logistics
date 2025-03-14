@@ -82,3 +82,29 @@
   }
 }
 
+        /* Reduce logo size on mobile */
+        .navbar-brand img {
+          max-width: 150px;
+      }
+      
+      @media (max-width: 768px) {
+          .navbar-brand img {
+              max-width: 100px; /* Smaller logo for mobile */
+          }
+      }
+
+      /* Custom hamburger animation */
+      .navbar-toggler {
+          border: none;
+          outline: none;
+          background: none;
+      }
+
+      .navbar-toggler-icon {
+          transition: transform 0.3s ease-in-out;
+      }
+
+      .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+          transform: rotate(90deg);
+      }
+  </style>
