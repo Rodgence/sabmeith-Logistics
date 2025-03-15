@@ -19,7 +19,7 @@
           <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Services</h4>
             <a class="btn btn-link" href="logistics.php">Logistics</a>
-            <a class="btn btn-link" href="clearing.php">Clearing &amp; Forwarding</a>
+            <a class="btn btn-link" href="clearing-forwrd.php">Clearing &amp; Forwarding</a>
             <a class="btn btn-link" href="freight-logistics.php">Freight Logistics</a>
            
           </div>
