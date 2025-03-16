@@ -60,10 +60,10 @@
 
 
   <!-- About Start -->
-<div class="container-fluid overflow-hidden py-5 px-lg-0">
-    <div class="container about py-5 px-lg-0">
+<div class="container-fluid overflow-hidden py-1 px-lg-0">
+    <div class="container about py-1 px-lg-0">
         <div class="row g-5 mx-lg-0">
-            <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+            <div class="col-lg-5 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
                     <!-- Image Slider Start -->
                     <div id="aboutImageSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
@@ -90,7 +90,7 @@
                     <!-- Image Slider End -->
                 </div>
             </div>
-            <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-7 about-text wow fadeInUp" data-wow-delay="0.3s">
                 <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
                 <h1 class="mb-5">Quick Transport and Logistics Solutions</h1>
                 <p class="mb-5">Sabmeith Freight Limited is an emerging frontier in the
