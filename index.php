@@ -59,52 +59,74 @@
     <!-- Carousel End -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container about py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/abou-us.png" style="object-fit: cover;" alt="">
+  <!-- About Start -->
+<div class="container-fluid overflow-hidden py-5 px-lg-0">
+    <div class="container about py-5 px-lg-0">
+        <div class="row g-5 mx-lg-0">
+            <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <!-- Image Slider Start -->
+                    <div id="aboutImageSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-fluid w-100 h-100" src="img/images/3.jpg" style="object-fit: cover;" alt="About Us Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid w-100 h-100" src="img/images/1.jpg" style="object-fit: cover;" alt="About Us Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid w-100 h-100" src="img/images/7.jpg" style="object-fit: cover;" alt="About Us Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#aboutImageSlider" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#aboutImageSlider" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Image Slider End -->
+                </div>
+            </div>
+            <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
+                <h1 class="mb-5">Quick Transport and Logistics Solutions</h1>
+                <p class="mb-5">Sabmeith Freight Limited is an emerging frontier in the
+                    competitive freight and supply chain management
+                    market with innovated and integrated technology plus
+                    an extensive market awareness to fully assist our client
+                    needs.</p>
+                <div class="row g-4 mb-5">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-globe fa-3x text-primary mb-3"></i>
+                        <h5>Our Mission</h5>
+                        <p class="m-0">Sabmeith Freight Limited operates with a
+                            steadfast commitment to providing exceptional
+                            logistics and transport services that
+                            consistently surpass client expectations. Our
+                            core mission is providing our clients with a
+                            premium service along with safety and honest
+                            as our benchmark. </p>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                        <i class="fa fa-eye fa-3x text-primary mb-3"></i>
+                        <h5>Our Vision</h5>
+                        <p class="m-0">At Sabmeith Freight Limited, our vision is to
+                            be the leading logistics requirement supplier
+                            in East and Central Africa and daily innovating
+                            our processes to deliver tailored solutions to
+                            our clients needs and efficiently provide them
+                            a world standard service wherever they are.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
-                    <h1 class="mb-5">Quick Transport and Logistics Solutions</h1>
-                    <p class="mb-5">Sabmeith Freight Limited is an emerging frontier in the
-                        competitive freight and supply chain management
-                        market with innovated and integrated technology plus
-                        an extensive market awareness to fully assist our client
-                        needs.</p>
-                    <div class="row g-4 mb-5">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                            <i class="fa fa-globe fa-3x text-primary mb-3"></i>
-                            <h5>Our Mission</h5>
-                            <p class="m-0">Sabmeith Freight Limited operates with a
-                                steadfast commitment to providing exceptional
-                                logistics and transport services that
-                                consistently surpass client expectations. Our
-                                core mission is providing our clients with a
-                                premium service along with safety and honest
-                                as our benchmark. </p>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                            <i class="fa fa-eye fa-3x text-primary mb-3"></i>
-                            <h5>Our Vision</h5>
-                            <p class="m-0">At Sabmeith Freight Limited, our vision is to
-                                be the leading logistics requirement supplier
-                                in East and Central Africa and daily innovating
-                                our processes to deliver tailored solutions to
-                                our clients needs and efficiently provide them
-                                a world standard service wherever the are`</p>
-                        </div>
-                    </div>
-                    <a href="about.php" class="btn btn-primary py-3 px-5">Explore More</a>
-                </div>
+                <a href="about.php" class="btn btn-primary py-3 px-5">Explore More</a>
             </div>
         </div>
     </div>
-    <!-- About End -->
+</div>
+<!-- About End -->
 
 
     <!-- Fact Start -->
