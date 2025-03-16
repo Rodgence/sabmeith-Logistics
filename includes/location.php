@@ -10,7 +10,7 @@
             </p>
             <div class="container">
                 <div class="col-md-6">
-                    <button class="btn btn-danger">Request a Quote</button>
+                   <a href="./inquiry.php" class="btn btn-danger border-rounded">Request a Quote</a>
                 </div>
             </div>
         </div>
