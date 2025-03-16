@@ -36,7 +36,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-md-6">
         <img
-          src="img/images/sab/3.png"
+          src="img/images/3.jpg"
           alt="Sabmeith Freight Trucks"
           class="img-fluid"
         />
