@@ -19,7 +19,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/images/sab/1.png" alt="">
+                            <img class="img-fluid" src="img/images/3.jpg" alt="">
                         </div>
                         <h4 class="mb-3">Logistics</h4>
                         <p>Sabmeith Freight Limited offers comprehensive
@@ -32,7 +32,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/images/sab/2.png" alt="">
+                            <img class="img-fluid" src="img/images/7.jpg" alt="">
                         </div>
                         <h4 class="mb-3">Clearing and Forwading</h4>
                         <p>Sabmeith Freight Limited specializes in comprehensive clearing and forwarding services,
@@ -45,7 +45,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/images/sab/3.png" alt="">
+                            <img class="img-fluid" src="img/images/5.jpg" alt="">
                         </div>
                         <h4 class="mb-3">Freight Logistics</h4>
                         <p>Sabmeith Freight Limited offers comprehensive freight logistics services tailored to meet the
