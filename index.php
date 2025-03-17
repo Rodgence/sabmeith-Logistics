@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="col-lg-7 about-text wow fadeInUp" data-wow-delay="0.3s">
-                <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
+                <h6 class="text-danger text-center text-uppercase mb-3">About Us</h6>
                 <h3 class="mb-3 text-center">Quick Transport and Logistics Solutions</h3>
                 <p class="mb-2">Sabmeith Freight Limited is an emerging frontier in the
                     competitive freight and supply chain management
@@ -466,6 +466,7 @@ EXPECTED
 <?php
 
     include("includes/location.php");
+    include("testimonial.php");
 
 
 
