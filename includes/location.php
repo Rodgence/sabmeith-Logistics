@@ -23,7 +23,7 @@
 
 <style>
 .sabmeith p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .animated-image {
