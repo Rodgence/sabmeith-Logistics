@@ -35,7 +35,7 @@
                             <img class="img-fluid" src="img/images/7.jpg" alt="">
                         </div>
                         <h4 class="mb-3">Clearing and Forwading</h4>
-                        <p>Sabmeith Freight Limited specializes in comprehensive clearing and forwarding services,
+                        <p class="text-justify">Sabmeith Freight Limited specializes in comprehensive clearing and forwarding services,
                             offering expertise in navigating the complexities of international trade regulations and customs
                             procedures. 
                             </p>

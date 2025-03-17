@@ -92,17 +92,17 @@
             </div>
             <div class="col-lg-7 about-text wow fadeInUp" data-wow-delay="0.3s">
                 <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
-                <h1 class="mb-5">Quick Transport and Logistics Solutions</h1>
-                <p class="mb-5">Sabmeith Freight Limited is an emerging frontier in the
+                <h3 class="mb-3 text-center">Quick Transport and Logistics Solutions</h3>
+                <p class="mb-2">Sabmeith Freight Limited is an emerging frontier in the
                     competitive freight and supply chain management
                     market with innovated and integrated technology plus
                     an extensive market awareness to fully assist our client
                     needs.</p>
                 <div class="row g-4 mb-5">
                     <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                        <i class="fa fa-globe fa-3x text-primary mb-3"></i>
-                        <h5>Our Mission</h5>
-                        <p class="m-0">Sabmeith Freight Limited operates with a
+                        <!-- <i class="fa fa-globe fa-3x text-primary mb-3"></i> -->
+                        <h5 class="text-center">Our Mission</h5>
+                        <p class="m-0 text-justify">Sabmeith Freight Limited operates with a
                             steadfast commitment to providing exceptional
                             logistics and transport services that
                             consistently surpass client expectations. Our
@@ -111,9 +111,9 @@
                             as our benchmark. </p>
                     </div>
                     <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                        <i class="fa fa-eye fa-3x text-primary mb-3"></i>
-                        <h5>Our Vision</h5>
-                        <p class="m-0">At Sabmeith Freight Limited, our vision is to
+                        <!-- <i class="fa fa-eye fa-3x text-primary mb-3"></i> -->
+                        <h5 class="text-center">Our Vision</h5>
+                        <p class="m-0 text-justify">At Sabmeith Freight Limited, our vision is to
                             be the leading logistics requirement supplier
                             in East and Central Africa and daily innovating
                             our processes to deliver tailored solutions to
@@ -139,7 +139,7 @@
 MORE THAN
 EXPECTED
 </h1>
-                    <p class="mb-5">We understand the critical role that logistics plays in the
+                    <p class="mb-5 text-justify">We understand the critical role that logistics plays in the
                         success of businesses worldwide. Whether it's
                         transporting goods across borders, navigating complex
                         customs procedures, or optimizing supply chain
