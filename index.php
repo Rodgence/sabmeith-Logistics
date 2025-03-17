@@ -466,6 +466,7 @@ EXPECTED
 <?php
 
     include("includes/location.php");
+    include("testimonial.php");
 
 
 
