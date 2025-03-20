@@ -14,7 +14,6 @@
             background-color: #f8f9fa;
             padding: 60px 0;
             margin-top: 30px;
-            
         }
         
         .service-img {
@@ -51,6 +50,99 @@
         a.btn {
             text-decoration: none;
         }
+        
+        .gallery-item {
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.5s ease;
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(114, 28, 36, 0.8);
+            color: white;
+            padding: 10px;
+            font-weight: 500;
+            text-align: center;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .photo-gallery {
+            background-color: #f9f9f9;
+        }
+        
+        .service-features {
+            margin-top: 40px;
+        }
+        
+        .feature-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 3px solid #721c24;
+            background-color: #f9f9f9;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-item:hover {
+            background-color: #f2f2f2;
+            transform: translateX(5px);
+        }
+        
+        .feature-title {
+            font-weight: 600;
+            color: #721c24;
+            margin-bottom: 8px;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+            color: #721c24;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            background-color: #721c24;
+            bottom: 0;
+            left: 0;
+        }
+        
+        .highlight-box {
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+            border-top: 4px solid #721c24;
+        }
     </style>
 
     <!-- Page Header Start -->
@@ -59,7 +151,7 @@
       style="margin-bottom: 6rem;"
     >
       <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Clearing and Forwading</h1>
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Clearing and Forwarding</h1>
         <nav aria-label="breadcrumb" class="animated slideInDown">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -72,7 +164,7 @@
               class="breadcrumb-item text-white active"
               aria-current="page"
             >
-            Clearing and Forwading 
+            Clearing and Forwarding 
             </li>
           </ol>
         </nav>
@@ -80,7 +172,7 @@
     </div>
     <!-- Page Header End -->
 
-<!-- Services Section -->
+<!-- Main Services Section -->
 <section class="py-5">
     <div class="container">
         <div class="row">
@@ -89,17 +181,117 @@
                 
                 <p>Sabmeith Freight Limited specializes in comprehensive clearing and forwarding services, offering expertise in navigating the complexities of international trade regulations and customs procedures. With a meticulous attention to detail and a commitment to efficiency, we facilitate the smooth and timely clearance of shipments, ensuring compliance with all regulatory requirements.</p>
                 
-                <p>Our clearing and forwarding services cover a wide range of activities, including customs documentation, tariff classification, duty assessment, and payment processing. Leveraging our extensive experience and knowledge of global trade regulations, we guide clients through the intricacies of customs clearance, minimizing delays and avoiding costly penalties.</p>
+                <div class="highlight-box">
+                    <h4>Our Expertise Includes:</h4>
+                    <ul>
+                        <li>Customs documentation and processing</li>
+                        <li>Tariff classification and duty assessment</li>
+                        <li>Regulatory compliance management</li>
+                        <li>Import/export permits acquisition</li>
+                        <li>Payment processing and financial handling</li>
+                    </ul>
+                </div>
                 
                 <p>At Sabmeith Freight Limited, we understand that every shipment is unique, with its own set of challenges and requirements. That's why we take a personalized approach to clearing and forwarding, tailoring our services to meet the specific needs of each client. Whether it's navigating complex import/export regulations or arranging for specialized permits and licenses, our team works tirelessly to ensure that shipments reach their destination smoothly and efficiently.</p>
                 
                 <p>Transparency and communication are paramount in our clearing and forwarding operations. We keep clients informed at every stage of the process, providing regular updates on the status of their shipments and addressing any questions or concerns promptly.</p>
-                
-                <p>In addition to our expertise in customs clearance, we also offer comprehensive forwarding services to manage the transportation of goods from origin to destination. Working closely with a network of trusted carriers and logistics partners, we coordinate the movement of shipments by air, sea, or land, optimizing routes and minimizing transit times to meet our clients' delivery deadlines.</p>
             </div>
             
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
                 <img src="img/images/7.jpg" alt="Freight Forwarding Services" class="img-fluid service-img">
+            </div>
+        </div>
+        
+        <!-- Feature Items -->
+        <div class="row service-features mt-4">
+            <div class="col-md-4">
+                <div class="feature-item">
+                    <h4 class="feature-title">Global Network</h4>
+                    <p>Access to a worldwide network of customs agents and freight partners for seamless international operations.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-item">
+                    <h4 class="feature-title">Regulatory Expertise</h4>
+                    <p>In-depth knowledge of customs requirements, documentation, and compliance procedures across multiple jurisdictions.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-item">
+                    <h4 class="feature-title">End-to-End Solutions</h4>
+                    <p>Comprehensive management of your shipment from origin to destination, with every detail handled professionally.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Photo Gallery Section with Improved Layout -->
+<section class="photo-gallery py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Our Clearing & Forwarding Services in Action</h2>
+        
+        <!-- First Row: Featured Large Image -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="gallery-item" style="height: 400px;">
+                    <img src="img/Clearing/1.png" alt="Comprehensive Clearing Services" class="img-fluid">
+                    <div class="gallery-caption">Comprehensive Clearing & Forwarding Solutions</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Second Row: Three Equal Images -->
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="img/Clearing/2.png" alt="International Freight Solutions" class="img-fluid">
+                    <div class="gallery-caption">International Freight Solutions</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="img/Clearing/3.png" alt="Efficient Cargo Handling" class="img-fluid">
+                    <div class="gallery-caption">Efficient Cargo Handling</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="img/Clearing/4.png" alt="Documentation Services" class="img-fluid">
+                    <div class="gallery-caption">Comprehensive Documentation Services</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Service Information -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="section-title">Why Choose Our Clearing Services</h3>
+                <p>In addition to our expertise in customs clearance, we also offer comprehensive forwarding services to manage the transportation of goods from origin to destination. Working closely with a network of trusted carriers and logistics partners, we coordinate the movement of shipments by air, sea, or land, optimizing routes and minimizing transit times to meet our clients' delivery deadlines.</p>
+                <ul class="mt-3">
+                    <li>Streamlined customs processes</li>
+                    <li>Reduced delays and detention charges</li>
+                    <li>Minimized risk of non-compliance penalties</li>
+                    <li>Enhanced visibility throughout the clearance process</li>
+                    <li>Expert guidance on complex regulatory matters</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="highlight-box" style="height: 100%;">
+                    <h3 class="mb-4">Our Clearing Process</h3>
+                    <ol>
+                        <li><strong>Documentation Review</strong> - Thorough examination of all required documents</li>
+                        <li><strong>Classification & Valuation</strong> - Accurate tariff classification and customs valuation</li>
+                        <li><strong>Duty & Tax Calculation</strong> - Precise assessment of applicable duties and taxes</li>
+                        <li><strong>Customs Declaration</strong> - Submission of declarations to relevant authorities</li>
+                        <li><strong>Clearance Processing</strong> - Managing the clearance process with customs officials</li>
+                        <li><strong>Delivery Coordination</strong> - Arranging delivery to the final destination</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
@@ -120,8 +312,7 @@
 </section>
 
 <!-- footer -->
- <?php
-
-        include("includes/footer.php");
+<?php
+    include("includes/footer.php");
 ?>
 <!-- end of footer -->
