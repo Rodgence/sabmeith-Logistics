@@ -7,8 +7,8 @@
             <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://maps.app.goo.gl/ixSttrjuFZgq3DhXA">Africab Building-3rd Floor<br>
             Plot 161/1 Kilwa Road Kurasini<br>Temeke, Dar es salaam, Tanzania<br>East Africa.
             </a></p>
-            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="https://wa.me/255775999000">+255 775 999 000</a></p>
-            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+255654417003">+255 654 417 003</a></p>
+            <p class="mb-2"><i class="fa fa-phone me-3"></i><a href="https://wa.me/255775999000">+255 775 999 000</a></p>
+            <p class="mb-2"><i class="fa fa-phone me-3"></i><a href="tel:+255654417003">+255 654 417 003</a></p>
             <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:info@sabmeithfreight.com">info@sabmeithfreight.com</a></p>
             <div class="d-flex pt-2">
               <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
