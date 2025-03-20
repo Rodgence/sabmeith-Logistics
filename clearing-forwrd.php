@@ -327,18 +327,26 @@
                 <div class="row justify-content-center">
                     <div class="col-md-5 col-lg-4 mb-3 mb-md-0">
                         <a href="contact.php" class="btn btn-light btn-lg w-100">
-                            <i class="fas fa-envelope mr-2"></i> Get a Quote
+                            <i class="fas fa-file-invoice me-2"></i> Get a Quote
                         </a>
                     </div>
                     <div class="col-md-5 col-lg-4">
                         <a href="https://wa.me/255775999000" class="btn btn-outline-light btn-lg w-100">
-                            <i class="fab fa-whatsapp mr-2"></i> WhatsApp Us
+                            <i class="fab fa-whatsapp me-2"></i> WhatsApp Us
                         </a>
                     </div>
                 </div>
                 
                 <div class="mt-4 text-white">
-                    <p>Have urgent questions? Call us directly: <strong>+255 775 999 000</strong></p>
+                    <p>Have urgent questions? Call us directly:</p>
+                    <div class="d-flex justify-content-center gap-4">
+                        <a href="tel:+255775999000" class="text-white text-decoration-none">
+                            <i class="fas fa-headset me-2"></i> <strong>+255 775 999 000</strong>
+                        </a>
+                        <a href="tel:+255654417003" class="text-white text-decoration-none">
+                            <i class="fas fa-phone-volume me-2"></i> <strong>+255 654 417 003</strong>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
