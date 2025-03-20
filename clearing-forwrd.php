@@ -14,6 +14,7 @@
             background-color: #f8f9fa;
             padding: 60px 0;
             margin-top: 30px;
+            
         }
         
         .service-img {
