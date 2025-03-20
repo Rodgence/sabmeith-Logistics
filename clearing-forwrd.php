@@ -284,22 +284,9 @@
         <div class="row">
             <div class="col-md-6">
                 <h3 class="section-title">Why Choose Our Clearing Services</h3>
-                <p>In addition to our expertise in customs clearance, we also offer comprehensive forwarding services to manage the transportation of goods from origin to destination. Working closely with a network of trusted carriers and logistics partners, we coordinate the movement of shipments by air, sea, or land, optimizing routes and minimizing transit times to meet our clients' delivery deadlines.</p>
+                <p>In addition to our expertise in customs clearance, we also offer comprehensive forwarding services to manage the transportation of goods from origin to destination. Working closely with a network of trusted carriers and logistics partners, we coordinate the movement of shipments by land, optimizing routes and minimizing transit times to meet our clients' delivery deadlines.</p>
                 
-                <div class="row mt-4">
-                    <div class="col-md-6">
-                        <div class="gallery-item" style="height: 200px;">
-                            <img src="img/forwading/4.png" alt="Air Freight Services" class="img-fluid">
-                            <div class="gallery-caption">Air Freight</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="gallery-item" style="height: 200px;">
-                            <img src="img/forwading/5.png" alt="Sea Freight Services" class="img-fluid">
-                            <div class="gallery-caption">Sea Freight</div>
-                        </div>
-                    </div>
-                </div>
+            
                 
                 <ul class="mt-4">
                     <li>Streamlined customs processes</li>
@@ -322,9 +309,82 @@
                         <li><strong>Delivery Coordination</strong> - Arranging delivery to the final destination</li>
                     </ol>
                     
-                    <div class="gallery-item mt-4" style="height: 220px;">
-                        <img src="img/forwading/6.png" alt="Delivery Coordination" class="img-fluid">
-                        <div class="gallery-caption">Final Mile Delivery</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section with Background Image -->
+<section class="cta-section py-5" style="background: linear-gradient(rgba(114, 28, 36, 0.85), rgba(114, 28, 36, 0.85)), url('img/forwading/5.png'); background-size: cover; background-position: center;">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-10">
+                <h2 class="mb-4 text-white">Ready to Streamline Your Clearing & Forwarding?</h2>
+                <p class="lead text-white mb-4">Partner with Sabmeith Freight Limited for efficient, compliant, and hassle-free customs clearance and freight forwarding solutions tailored to your specific shipping needs.</p>
+                
+                <div class="row justify-content-center">
+                    <div class="col-md-5 col-lg-4 mb-3 mb-md-0">
+                        <a href="contact.php" class="btn btn-light btn-lg w-100">
+                            <i class="fas fa-envelope mr-2"></i> Get a Quote
+                        </a>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <a href="https://wa.me/255775999000" class="btn btn-outline-light btn-lg w-100">
+                            <i class="fab fa-whatsapp mr-2"></i> WhatsApp Us
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="mt-4 text-white">
+                    <p>Have urgent questions? Call us directly: <strong>+255 775 999 000</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Client Benefits Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h3 class="section-title">Benefits of Working With Us</h3>
+                <p>Experience the difference that professional clearing and forwarding services can make for your business.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <div class="mb-3">
+                            <i class="fas fa-clock fa-3x text-primary" style="color: #721c24 !important;"></i>
+                        </div>
+                        <h4 class="card-title">Time Savings</h4>
+                        <p class="card-text">Reduce customs clearance time by up to 60% with our streamlined processes and expert handling.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <div class="mb-3">
+                            <i class="fas fa-shield-alt fa-3x text-primary" style="color: #721c24 !important;"></i>
+                        </div>
+                        <h4 class="card-title">Compliance Assurance</h4>
+                        <p class="card-text">Rest easy knowing your shipments meet all regulatory requirements, avoiding costly penalties and delays.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <div class="mb-3">
+                            <i class="fas fa-chart-line fa-3x text-primary" style="color: #721c24 !important;"></i>
+                        </div>
+                        <h4 class="card-title">Cost Optimization</h4>
+                        <p class="card-text">Save on logistics expenses through our efficient processes, duty optimization, and reduced storage fees.</p>
                     </div>
                 </div>
             </div>
@@ -332,61 +392,8 @@
     </div>
 </section>
 
-<!-- Additional Forwarding Services Showcase -->
-<section class="bg-light py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center mb-4">
-                <h2 class="section-title">Complete Forwarding Solutions</h2>
-                <p class="lead">Our comprehensive approach ensures your goods move seamlessly across borders and transportation modes.</p>
-            </div>
-        </div>
-        
-        <div class="row g-4">
-            <div class="col-md-3">
-                <div class="gallery-item">
-                    <img src="img/forwading/7.png" alt="Road Transport" class="img-fluid">
-                    <div class="gallery-caption">Road Transport</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="gallery-item">
-                    <img src="img/forwading/8.png" alt="Project Cargo" class="img-fluid">
-                    <div class="gallery-caption">Project Cargo</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="gallery-item">
-                    <img src="img/forwading/9.png" alt="Warehousing" class="img-fluid">
-                    <div class="gallery-caption">Warehousing</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="gallery-item">
-                    <img src="img/forwading/10.png" alt="Express Delivery" class="img-fluid">
-                    <div class="gallery-caption">Express Services</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Call to Action Section -->
-<section class="cta-section">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-md-8">
-                <h2 class="mb-3">Ready to Simplify Your Customs Clearance?</h2>
-                <p class="lead cta-text">Contact our expert team today for personalized clearing and forwarding solutions tailored to your specific shipping needs.</p>
-                
-                <a href="#contact" class="btn btn-primary btn-lg">Request a Quote</a>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- footer -->
-<?php
-    include("includes/footer.php");
+ <?php
+        include("includes/footer.php");
 ?>
 <!-- end of footer -->
