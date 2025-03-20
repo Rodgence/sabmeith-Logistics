@@ -54,9 +54,8 @@
         .gallery-item {
             transition: transform 0.3s ease;
             margin-bottom: 20px;
-            height: 300px;
+            height: 250px;
             overflow: hidden;
-            position: relative;
         }
         
         .gallery-item:hover {
@@ -69,25 +68,12 @@
             object-fit: cover;
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            transition: transform 0.5s ease;
-        }
-        
-        .gallery-item:hover img {
-            transform: scale(1.05);
         }
         
         .gallery-caption {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(114, 28, 36, 0.8);
-            color: white;
-            padding: 10px;
             font-weight: 500;
+            color: #555;
             text-align: center;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
         }
         
         .photo-gallery {
@@ -265,14 +251,57 @@
     </div>
 </section>
 
-<!-- Additional Service Information -->
+<!-- Additional Service Information with Forwarding Images -->
 <section class="py-5 bg-white">
     <div class="container">
+        <!-- Image Showcase Row -->
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title">Our Forwarding Capabilities</h2>
+            </div>
+            
+            <div class="col-md-8">
+                <div class="gallery-item" style="height: 350px;">
+                    <img src="img/forwading/1.png" alt="Freight Forwarding Operations" class="img-fluid">
+                    <div class="gallery-caption">International Freight Forwarding</div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="gallery-item mb-4">
+                    <img src="img/forwading/2.png" alt="Customs Documentation" class="img-fluid">
+                    <div class="gallery-caption">Customs Documentation</div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="img/forwading/3.png" alt="Cargo Handling" class="img-fluid">
+                    <div class="gallery-caption">Cargo Management</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Service Details Row -->
         <div class="row">
             <div class="col-md-6">
                 <h3 class="section-title">Why Choose Our Clearing Services</h3>
                 <p>In addition to our expertise in customs clearance, we also offer comprehensive forwarding services to manage the transportation of goods from origin to destination. Working closely with a network of trusted carriers and logistics partners, we coordinate the movement of shipments by air, sea, or land, optimizing routes and minimizing transit times to meet our clients' delivery deadlines.</p>
-                <ul class="mt-3">
+                
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="gallery-item" style="height: 200px;">
+                            <img src="img/forwading/4.png" alt="Air Freight Services" class="img-fluid">
+                            <div class="gallery-caption">Air Freight</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="gallery-item" style="height: 200px;">
+                            <img src="img/forwading/5.png" alt="Sea Freight Services" class="img-fluid">
+                            <div class="gallery-caption">Sea Freight</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <ul class="mt-4">
                     <li>Streamlined customs processes</li>
                     <li>Reduced delays and detention charges</li>
                     <li>Minimized risk of non-compliance penalties</li>
@@ -280,6 +309,7 @@
                     <li>Expert guidance on complex regulatory matters</li>
                 </ul>
             </div>
+            
             <div class="col-md-6">
                 <div class="highlight-box" style="height: 100%;">
                     <h3 class="mb-4">Our Clearing Process</h3>
@@ -291,6 +321,50 @@
                         <li><strong>Clearance Processing</strong> - Managing the clearance process with customs officials</li>
                         <li><strong>Delivery Coordination</strong> - Arranging delivery to the final destination</li>
                     </ol>
+                    
+                    <div class="gallery-item mt-4" style="height: 220px;">
+                        <img src="img/forwading/6.png" alt="Delivery Coordination" class="img-fluid">
+                        <div class="gallery-caption">Final Mile Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Forwarding Services Showcase -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2 class="section-title">Complete Forwarding Solutions</h2>
+                <p class="lead">Our comprehensive approach ensures your goods move seamlessly across borders and transportation modes.</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="gallery-item">
+                    <img src="img/forwading/7.png" alt="Road Transport" class="img-fluid">
+                    <div class="gallery-caption">Road Transport</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="gallery-item">
+                    <img src="img/forwading/8.png" alt="Project Cargo" class="img-fluid">
+                    <div class="gallery-caption">Project Cargo</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="gallery-item">
+                    <img src="img/forwading/9.png" alt="Warehousing" class="img-fluid">
+                    <div class="gallery-caption">Warehousing</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="gallery-item">
+                    <img src="img/forwading/10.png" alt="Express Delivery" class="img-fluid">
+                    <div class="gallery-caption">Express Services</div>
                 </div>
             </div>
         </div>
